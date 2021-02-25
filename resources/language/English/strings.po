@@ -1,0 +1,414 @@
+# Kodi Media Center language file
+# Addon Name: TorrServe
+# Addon id: plugin.video.torrserve
+# Addon Provider: Nemiroff
+#
+msgid ""
+msgstr ""
+
+# Settings
+msgctxt "#30000"
+msgid "General"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Connectivity"
+msgstr ""
+
+msgctxt "#30002"
+msgid "TorrServe URL"
+msgstr ""
+
+msgctxt "#30003"
+msgid "TorrServe Port"
+msgstr ""
+
+msgctxt "#30004"
+msgid "View"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Dont show in list torrent without info"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Autosave item from search"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Enable search"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Library Path"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Kodi Library"
+msgstr ""
+
+msgctxt "#30010"
+msgid "TorrServe Settings"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Settings saved! Restart service"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Settings not saved!"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Saved!"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Deleted!"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Choose a file"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Cache Size"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Preload Size"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Disable TCP"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Disable UTP"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Disable UPNP"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Disable DHT"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Disable Upload"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Encryption"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Retracker mode"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Download Limit"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Upload Limit"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Connections Limit (per torrent)"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Listen Port"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Default"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Disable"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Forced"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Not add"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Add"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Remove"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Replace"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Add built"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Add ngosang"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Enable IPv6"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Dht connections limit"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Torrent disconnect timeout"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Support version"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Content type for m3u playlists"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Disable RealIdFileStats and &ind="
+msgstr ""
+
+msgctxt "#30056"
+msgid "Request strategy"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Built-in retrackers"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Newtrackon retrackers"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Ngosang all ip retrackers"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Show external subtitles from torrent"
+msgstr ""
+
+msgctxt "#30061"
+msgid "TheMovieDB query language (discover movies & TV shows)"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Search on"
+msgstr ""
+
+msgctxt "#30063"
+msgid "-*- mirror http://"
+msgstr ""
+
+msgctxt "#30064"
+msgid "View of the list of found distributions"
+msgstr ""
+
+msgctxt "#30065"
+msgid "View of the list of discover films (TV shows)"
+msgstr ""
+
+msgctxt "#30066"
+msgid "-*- login"
+msgstr ""
+
+msgctxt "#30067"
+msgid "-*- password"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Region in requests to TheMovieDB"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Only video and audio files in the list from the distribution"
+msgstr ""
+
+msgctxt "#30070"
+msgid "Include adult movies on TheMovieDB"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Distribution file list view"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Region (ISO 3166-1)"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Number of running torrents"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Drop one torrent when the number of running torrents is exceeded"
+msgstr ""
+
+
+msgctxt "#30200"
+msgid "Server {0} is down"
+msgstr ""
+
+# AddonGUI
+msgctxt "#30300"
+msgid "Torrents List"
+msgstr ""
+
+msgctxt "#30301"
+msgid "Search"
+msgstr ""
+
+msgctxt "#30302"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30303"
+msgid "Empty result"
+msgstr ""
+
+msgctxt "#30304"
+msgid "Wait for info..."
+msgstr ""
+
+msgctxt "#30305"
+msgid "Open .torrent"
+msgstr ""
+
+msgctxt "#30306"
+msgid "Select torrent file"
+msgstr ""
+
+msgctxt "#30307"
+msgid "Add to DB"
+msgstr ""
+
+msgctxt "#30308"
+msgid "Delete from DB"
+msgstr ""
+
+msgctxt "#30309"
+msgid "Connected: {0} | Active: {1} | Total: {2}"
+msgstr ""
+
+msgctxt "#30310"
+msgid "sec"
+msgstr ""
+
+msgctxt "#30311"
+msgid "Discover"
+msgstr ""
+
+msgctxt "#30312"
+msgid "Movies"
+msgstr ""
+
+msgctxt "#30313"
+msgid "TV Shows"
+msgstr ""
+
+msgctxt "#30314"
+msgid "New Search"
+msgstr ""
+
+msgctxt "#30315"
+msgid "Torrents"
+msgstr ""
+
+msgctxt "#30316"
+msgid "Remove query"
+msgstr ""
+
+msgctxt "#30317"
+msgid "Next page ({0})"
+msgstr ""
+
+msgctxt "#30318"
+msgid "Save to Library"
+msgstr ""
+
+msgctxt "#30319"
+msgid "Start find subtitles..."
+msgstr ""
+
+msgctxt "#30320"
+msgid "Find subtitles..."
+msgstr ""
+
+msgctxt "#30321"
+msgid "Load subtitles {0} / {1}"
+msgstr ""
+
+msgctxt "#30322"
+msgid "Description"
+msgstr ""
+
+msgctxt "#30323"
+msgid "Open TAM"
+msgstr ""
+
+msgctxt "#30324"
+msgid "Open all .torrent in dir" 
+msgstr ""
+
+msgctxt "#30325"
+msgid "Search title" 
+msgstr ""
+
+msgctxt "#30326"
+msgid "Search title and year" 
+msgstr ""
+
+msgctxt "#30327"
+msgid "Cartoons" 
+msgstr ""
+
+msgctxt "#30328"
+msgid "Animated series" 
+msgstr ""
+
+msgctxt "#30329"
+msgid "russians" 
+msgstr ""
+
+msgctxt "#30330"
+msgid "english speaking" 
+msgstr ""
+
+msgctxt "#30331"
+msgid "french" 
+msgstr ""
+
+msgctxt "#30332"
+msgid "german" 
+msgstr ""
+
+msgctxt "#30333"
+msgid "italian" 
+msgstr ""
+
+msgctxt "#30334"
+msgid "japanese" 
+msgstr ""
+
+msgctxt "#30335"
+msgid "per day" 
+msgstr ""
+
+msgctxt "#30336"
+msgid "per week" 
+msgstr ""

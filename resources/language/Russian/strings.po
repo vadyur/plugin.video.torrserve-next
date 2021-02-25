@@ -1,0 +1,414 @@
+# Kodi Media Center language file
+# Addon Name: TorrServe
+# Addon id: plugin.video.torrserve
+# Addon Provider: Nemiroff
+#
+msgid ""
+msgstr ""
+
+# Settings
+msgctxt "#30000"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "#30001"
+msgid "Connectivity"
+msgstr "Соединение"
+
+msgctxt "#30002"
+msgid "TorrServe URL"
+msgstr "TorrServe URL"
+
+msgctxt "#30003"
+msgid "TorrServe Port"
+msgstr "TorrServer Port (По-умолчанию 8090)"
+
+msgctxt "#30004"
+msgid "View"
+msgstr "Отображение"
+
+msgctxt "#30005"
+msgid "Dont show in list torrent without info"
+msgstr "Не отображать в списке торренты без инфо"
+
+msgctxt "#30006"
+msgid "Autosave item from search"
+msgstr "Сохранять раздачи из поиска"
+
+msgctxt "#30007"
+msgid "Enable search"
+msgstr "Включить поиск"
+
+msgctxt "#30008"
+msgid "Library Path"
+msgstr "Путь библиотеки"
+
+msgctxt "#30009"
+msgid "Kodi Library"
+msgstr "Библиотека Kodi"
+
+msgctxt "#30010"
+msgid "TorrServe Settings"
+msgstr "Настройки TorrServer"
+
+msgctxt "#30011"
+msgid "Settings saved! Restart service"
+msgstr "Настройки изменены.[CR]Перезапускаем сервис"
+
+msgctxt "#30012"
+msgid "Settings not saved!"
+msgstr "Настройки не сохранены!"
+
+msgctxt "#30013"
+msgid "Saved!"
+msgstr "Сохранено!"
+
+msgctxt "#30014"
+msgid "Deleted!"
+msgstr "Удалено!"
+
+msgctxt "#30015"
+msgid "Choose a file"
+msgstr "Выберете файл:"
+
+msgctxt "#30016"
+msgid "Cache Size"
+msgstr "Размер кэша МБ"
+
+msgctxt "#30017"
+msgid "Preload Size"
+msgstr "Размер предбуфера МБ"
+
+msgctxt "#30018"
+msgid "Disable TCP"
+msgstr "Отключить TCP"
+
+msgctxt "#30019"
+msgid "Disable UTP"
+msgstr "Отключить UTP"
+
+msgctxt "#30020"
+msgid "Disable UPNP"
+msgstr "Отключить UPNP"
+
+msgctxt "#30021"
+msgid "Disable DHT"
+msgstr "Отключить DHT"
+
+msgctxt "#30022"
+msgid "Disable Upload"
+msgstr "Отключить раздачу"
+
+msgctxt "#30023"
+msgid "Encryption"
+msgstr "Шифрование"
+
+msgctxt "#30024"
+msgid "Retracker mode"
+msgstr "Ретрекеры"
+
+msgctxt "#30025"
+msgid "Download Limit"
+msgstr "Ограничени загрузки Кб/сек"
+
+msgctxt "#30026"
+msgid "Upload Limit"
+msgstr "Ограничение раздачи Кб/сек"
+
+msgctxt "#30027"
+msgid "Connections Limit (per torrent)"
+msgstr "Лимит соединений"
+
+msgctxt "#30028"
+msgid "Listen Port"
+msgstr "Порт для входящих соединений"
+
+msgctxt "#30029"
+msgid "Default"
+msgstr "По-умолчанию"
+
+msgctxt "#30030"
+msgid "Disable"
+msgstr "Отключено"
+
+msgctxt "#30031"
+msgid "Forced"
+msgstr "Принудительно"
+
+msgctxt "#30032"
+msgid "Not add"
+msgstr "Не добавлять"
+
+msgctxt "#30033"
+msgid "Add"
+msgstr "Добавить"
+
+msgctxt "#30034"
+msgid "Remove"
+msgstr "Удалить"
+
+msgctxt "#30035"
+msgid "Replace"
+msgstr "Заменить"
+
+msgctxt "#30036"
+msgid "Add built"
+msgstr "Добавить встроенные"
+
+msgctxt "#30037"
+msgid "Add ngosang"
+msgstr "Добавить ngosang"
+
+msgctxt "#30050"
+msgid "Enable IPv6"
+msgstr "Включить IPv6"
+
+msgctxt "#30051"
+msgid "Dht connections limit"
+msgstr "Лимит DHT соединений"
+
+msgctxt "#30052"
+msgid "Torrent disconnect timeout"
+msgstr "Время отключения торрента после просмотра"
+
+msgctxt "#30053"
+msgid "Support version"
+msgstr "Совместимось с версий торрсервера"
+
+msgctxt "#30054"
+msgid "Content type for m3u playlists"
+msgstr "Тип контента плейлистов .m3u"
+
+msgctxt "#30055"
+msgid "Disable RealIdFileStats and &ind="
+msgstr "Отключить RealIdFileStats и &ind= (настоящий индекс)"
+
+msgctxt "#30056"
+msgid "Request strategy"
+msgstr "Стратегия запросов"
+
+msgctxt "#30057"
+msgid "Built-in retrackers"
+msgstr "Встроенные ретрекеры"
+
+msgctxt "#30058"
+msgid "Newtrackon retrackers"
+msgstr "Newtrackon ретрекеры"
+
+msgctxt "#30059"
+msgid "Ngosang all ip retrackers"
+msgstr "Ngosang all ip ретрекеры"
+
+msgctxt "#30060"
+msgid "Show external subtitles from torrent"
+msgstr "Показывать внешние субтитры из раздачи"
+
+msgctxt "#30061"
+msgid "TheMovieDB query language (discover movies & TV shows)"
+msgstr "Язык запросов TheMovieDB (популярные фильмы и сериалы)"
+
+msgctxt "#30062"
+msgid "Search on"
+msgstr "Искать на"
+
+msgctxt "#30063"
+msgid "-*- mirror http://"
+msgstr "-*- зеркало http://"
+
+msgctxt "#30064"
+msgid "View of the list of found distributions"
+msgstr "Вид списка найденных раздач"
+
+msgctxt "#30065"
+msgid "View of the list of discover films (TV shows)"
+msgstr "Вид списка популярных фильмов (сериалов)"
+
+msgctxt "#30066"
+msgid "-*- login"
+msgstr "-*- логин"
+
+msgctxt "#30067"
+msgid "-*- password"
+msgstr "-*- пароль"
+
+msgctxt "#30068"
+msgid "Region in requests to TheMovieDB"
+msgstr "Учитывать регион в запросах к TheMovieDB"
+
+msgctxt "#30069"
+msgid "Only video and audio files in the list from the distribution"
+msgstr "Только видео и аудио файлы в списке из раздачи"
+
+msgctxt "#30070"
+msgid "Include adult movies on TheMovieDB"
+msgstr "Включить фильмы для взрослых на TheMovieDB"
+
+msgctxt "#30071"
+msgid "Distribution file list view"
+msgstr "Вид списка файлов раздачи"
+
+msgctxt "#30072"
+msgid "Region (ISO 3166-1)"
+msgstr "Регион (ISO 3166-1)"
+
+msgctxt "#30073"
+msgid "Number of running torrents"
+msgstr "Количество запущенных торрентов"
+
+msgctxt "#30074"
+msgid "Drop one torrent when the number of running torrents is exceeded"
+msgstr "Прерывать работу одного торрента при превышении числа запущенных торрентов"
+
+
+msgctxt "#30200"
+msgid "Server {0} is down"
+msgstr "Сервер {0} не отвечает"
+
+# AddonGUI
+msgctxt "#30300"
+msgid "Torrents List"
+msgstr "Список торрентов"
+
+msgctxt "#30301"
+msgid "Search"
+msgstr "Поиск"
+
+msgctxt "#30302"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "#30303"
+msgid "Empty result"
+msgstr "Ничего не найденно"
+
+msgctxt "#30304"
+msgid "Wait for info..."
+msgstr "Ждем получения информации о раздаче..."
+
+msgctxt "#30305"
+msgid "Open .torrent"
+msgstr "Добавить .torrent"
+
+msgctxt "#30306"
+msgid "Select torrent file"
+msgstr "Выберете торрент файл"
+
+msgctxt "#30307"
+msgid "Add to DB"
+msgstr "Сохранить в списке"
+
+msgctxt "#30308"
+msgid "Delete from DB"
+msgstr "Удалить из списка"
+
+msgctxt "#30309"
+msgid "Connected: {0} | Active: {1} | Total: {2}"
+msgstr "Подключено: {0} | Активных: {1} | Всего: {2}"
+
+msgctxt "#30310"
+msgid "sec"
+msgstr "сек"
+
+msgctxt "#30311"
+msgid "Discover"
+msgstr "Популярные"
+
+msgctxt "#30312"
+msgid "Movies"
+msgstr "Фильмы"
+
+msgctxt "#30313"
+msgid "TV Shows"
+msgstr "Сериалы"
+
+msgctxt "#30314"
+msgid "New Search"
+msgstr "Новый поиск"
+
+msgctxt "#30315"
+msgid "Torrents"
+msgstr "Торренты"
+
+msgctxt "#30316"
+msgid "Remove query"
+msgstr "Удалить запрос"
+
+msgctxt "#30317"
+msgid "Next page ({0})"
+msgstr "Следующая страница ({0})"
+
+msgctxt "#30318"
+msgid "Save to Library"
+msgstr "Сохранить в библиотеку"
+
+msgctxt "#30319"
+msgid "Start find subtitles..."
+msgstr "Старт поиска субтитров..."
+
+msgctxt "#30320"
+msgid "Find subtitles..."
+msgstr "Поиск субтитров..."
+
+msgctxt "#30321"
+msgid "Load subtitles {0} / {1}"
+msgstr "Загрузка субтитров {0} / {1}"
+
+msgctxt "#30322"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "#30323"
+msgid "Open TAM"
+msgstr "Открыть в TAM"
+
+msgctxt "#30324"
+msgid "Open all .torrent in dir" 
+msgstr "Добавить все .torrent из папки"
+
+msgctxt "#30325"
+msgid "Search title" 
+msgstr "Поиск по названию"
+
+msgctxt "#30326"
+msgid "Search title and year" 
+msgstr "Поиск по названию и году"
+
+msgctxt "#30327"
+msgid "Cartoons" 
+msgstr "Мультфильмы"
+
+msgctxt "#30328"
+msgid "Animated series" 
+msgstr "Мультсериалы"
+
+msgctxt "#30329"
+msgid "russians" 
+msgstr "русские"
+
+msgctxt "#30330"
+msgid "english speaking" 
+msgstr "англоязычные"
+
+msgctxt "#30331"
+msgid "french" 
+msgstr "французкие"
+
+msgctxt "#30332"
+msgid "german" 
+msgstr "немецкие"
+
+msgctxt "#30333"
+msgid "italian" 
+msgstr "итальянские"
+
+msgctxt "#30334"
+msgid "japanese" 
+msgstr "японские"
+
+msgctxt "#30335"
+msgid "per day" 
+msgstr "за день"
+
+msgctxt "#30336"
+msgid "per week" 
+msgstr "за неделю"

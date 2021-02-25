@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<!-- Connectivity -->
+		<setting label="30001" type="lsep" />
+		<setting id="remote_host" label="30002" type="text" default="127.0.0.1" />
+		<setting id="remote_port" label="30003" type="number" default="8090" />
+		<!-- View -->
+		<setting label="30004" type="lsep" />
+		<setting id="use_subtitles" label="30060" type="bool" default="true" />
+		<setting id="files_view" label="30071" type="enum"  default="0" values="Не менять|Вид 1|Вид 2|Вид 3|Вид 4|Вид 5|Вид 6|Вид 7|Вид 8|Вид 9|Вид 10|Вид 11|Вид 12"/>
+		<setting id="only_media" label="30069" type="bool" default="true" />
+		<setting id="without_info" label="30005" type="bool" default="false" />
+		<setting id="save_in_db" label="30006" type="bool" default="false" />
+		<setting id="use_torlook" label="30007" type="bool" default="false" />
+		<setting id="result_view" label="30064" type="enum"  default="2" values="Не менять|Вид 1|Вид 2|Вид 3|Вид 4|Вид 5|Вид 6|Вид 7|Вид 8|Вид 9|Вид 10|Вид 11|Вид 12"/>
+		<setting id="search_view" label="30065" type="enum"  default="0" values="Не менять|Вид 1|Вид 2|Вид 3|Вид 4|Вид 5|Вид 6|Вид 7|Вид 8|Вид 9|Вид 10|Вид 11|Вид 12"/>
+		<setting id="LanguageID" label="30061" type="select" values="bg|cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|sl|sv|tr|zh" default="ru"/>
+		<setting id="is_region" label="30068" type="bool" default="true" />
+		<setting id="regionID" label="30072" type="select" enable="eq(-1,true)" values="BY|DE|FI|FR|GB|IT|JP|KR|KZ|NL|NZ|RU|SV|US|UA" default="RU"/>
+		<setting id="is_adult" label="30070" type="bool" default="false" />
+		<setting type="sep" />
+		<setting id="united_search"  type="bool" visible="true" label="United Search" default="false" />
+		<setting id="us_command" type="text" visible="false" default="action=search&mod=torrent&type=video&query=" />
+	</category>
+	<category label="30062">
+		<setting id="findmagnet" label="Findmagnet.org" type="bool" default="true" />
+		<setting type="sep" />
+		<setting id="kinozal" label="Kinozal.tv" type="bool" default="false" />
+		<setting id="kinozal_url" label="30063" type="text" default="" enable="eq(-1,true)" />
+		<setting type="sep" />
+		<setting id="nnmclub" label="Nnmclub.to" type="bool" default="true" />
+		<setting id="nnmclub_login" label="30066" type="text" default="" enable="eq(-1,true)" />
+		<setting id="nnmclub_password" label="30067" type="text" default="" enable="eq(-2,true)" option="hidden" />
+		<setting id="nnmclub_url" label="30063" type="text" default="" enable="eq(-3,true)" />
+		<setting type="sep" />
+		<setting id="rutor" label="Rutor.org" type="bool" default="true" />
+		<setting id="rutor_url" label="30063" type="text" default="" enable="eq(-1,true)" />
+		<setting type="sep" />
+		<setting id="rutracker" label="Rutracker.org" type="bool" default="false" />
+		<setting id="rutracker_login" label="30066" type="text" default="" enable="eq(-1,true)" />
+		<setting id="rutracker_password" label="30067" type="text" default="" enable="eq(-2,true)" option="hidden" />
+		<setting id="rutracker_url" label="30063" type="text" default="" enable="eq(-3,true)" />
+		<setting type="sep" />
+		<setting id="torlook" label="Torlook.info" type="bool" default="true" />
+		<setting type="sep" />
+		<setting id="wriza" label="Wriza.top" type="bool" default="true" />
+	</category>
+	<category label="30009">
+		<setting id="library_path" type="folder" label="30008" default="special://home/ts_library" source="" option="writeable" />
+	</category>
+	<category label="30010">
+		<setting id="CacheSize" label="30016" type="number" default="200" />
+		<setting id="PreloadBufferSize" label="30017" type="number" default="20" />
+		<setting id="DisableTCP" label="30018" type="bool" default="False" />
+		<setting id="DisableUTP" label="30019" type="bool" default="False" />
+		<setting id="DisableUPNP" label="30020" type="bool" default="False" />
+		<setting id="DisableDHT" label="30021" type="bool" default="False" />
+		<setting id="DisableUpload" label="30022" type="bool" default="False" />
+		<setting id="Encryption" label="30023" type="enum" lvalues="30029|30030|30031" default="0"/>
+		<setting id="RetrackersMode" label="30024" type="enum" lvalues="30032|30033|30034|30035" default="1" />
+		<setting id="DownloadRateLimit" label="30025" type="number" default="0" />
+		<setting id="UploadRateLimit" label="30026" type="number" default="0" />
+		<setting id="ConnectionsLimit" label="30027" type="number" default="20" />
+		<setting id="PeersListenPort" label="30028" type="number" default="0" />
+		<setting id="EnableIPv6" label="30050" type="bool" default="False" />
+		<setting id="DhtConnectionLimit" label="30051" type="number" default="500" />
+		<setting id="TorrentDisconnectTimeout" label="30052" type="number" default="30" />
+		<setting type="sep" />
+		<setting id="RequestStrategy" label="30056" type="enum" values="Размытая|Быстрейшая|Передышка" default="2" />
+		<setting id="SupportMode" label="30053" type="enum" values="1.1.77|1.1.76|1.1.77 имя|1.1.76 имя|1.1.77 esc|1.1.76 esc" default="0" />
+		<setting id="DisableRealId" label="30055" type="bool" default="False" />
+		<setting id="MaxRunTorrents" label="30073" type="number" default="0" />
+		<setting id="DelMaxRunTorrent" label="30074" type="bool" default="False" enable="!eq(-1,0)" />
+		<setting id="M3UContentType" label="30054" type="enum" values="Audio|Video (application)" default="0" />
+		<setting id="BuiltinRetrackers" label="30057" type="bool" default="true" />
+		<setting id="NewtrackonRetrackers" label="30058" type="bool" default="False" />
+		<setting id="NgosangallipRetrackers" label="30059" type="bool" default="False" />
+	</category>
+</settings>
