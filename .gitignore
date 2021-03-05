@@ -1,1 +1,7 @@
 *.pyo
+*.pyc
+*test.py
+.idea/
+.vs/
+ptvsd/
+test/
