@@ -362,53 +362,53 @@ msgid "Open TAM"
 msgstr ""
 
 msgctxt "#30324"
-msgid "Open all .torrent in dir" 
+msgid "Open all .torrent in dir"
 msgstr ""
 
 msgctxt "#30325"
-msgid "Search title" 
+msgid "Search title"
 msgstr ""
 
 msgctxt "#30326"
-msgid "Search title and year" 
+msgid "Search title and year"
 msgstr ""
 
 msgctxt "#30327"
-msgid "Cartoons" 
+msgid "Cartoons"
 msgstr ""
 
 msgctxt "#30328"
-msgid "Animated series" 
+msgid "Animated series"
 msgstr ""
 
 msgctxt "#30329"
-msgid "russians" 
+msgid "russians"
 msgstr ""
 
 msgctxt "#30330"
-msgid "english speaking" 
+msgid "english speaking"
 msgstr ""
 
 msgctxt "#30331"
-msgid "french" 
+msgid "french"
 msgstr ""
 
 msgctxt "#30332"
-msgid "german" 
+msgid "german"
 msgstr ""
 
 msgctxt "#30333"
-msgid "italian" 
+msgid "italian"
 msgstr ""
 
 msgctxt "#30334"
-msgid "japanese" 
+msgid "japanese"
 msgstr ""
 
 msgctxt "#30335"
-msgid "per day" 
+msgid "per day"
 msgstr ""
 
 msgctxt "#30336"
-msgid "per week" 
+msgid "per week"
 msgstr ""
