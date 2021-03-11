@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.torrserve" name="TorrServer Client" version="0.1.21" provider-name="Nemiroff, virserg">
+<addon id="plugin.video.torrserve-next" name="TorrServer Client" version="0.1.21" provider-name="Nemiroff, virserg, -=Vd=-">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="xbmc.python" version="2.24.0" />
