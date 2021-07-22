@@ -5,3 +5,5 @@
 .vs/
 ptvsd/
 test/
+*.moz
+*.db
