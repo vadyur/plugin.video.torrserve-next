@@ -3,8 +3,10 @@
 	<category label="30000">
 		<!-- Connectivity -->
 		<setting label="30001" type="lsep" />
+		<!-- 
 		<setting id="remote_host" label="30002" type="text" default="127.0.0.1" />
-		<setting id="remote_port" label="30003" type="number" default="8090" />
+		<setting id="remote_port" label="30003" type="number" default="8090" /> -->
+		<setting option="close" type="action" label="30040" action="Addon.OpenSettings(script.module.torrserver)"/>
 		<!-- View -->
 		<setting label="30004" type="lsep" />
 		<setting id="use_subtitles" label="30060" type="bool" default="true" />
