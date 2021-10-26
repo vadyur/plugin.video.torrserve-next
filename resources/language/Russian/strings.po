@@ -159,6 +159,10 @@ msgctxt "#30037"
 msgid "Add ngosang"
 msgstr "Добавить ngosang"
 
+msgctxt "#30040"
+msgid "Torserver's settings"
+msgstr "Настройки модуля TorrServer"
+
 msgctxt "#30050"
 msgid "Enable IPv6"
 msgstr "Включить IPv6"
