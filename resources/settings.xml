@@ -46,8 +46,12 @@
 		<setting id="rutracker_password" label="30067" type="text" default="" enable="eq(-2,true)" option="hidden" />
 		<setting id="rutracker_url" label="30063" type="text" default="" enable="eq(-3,true)" />
 		<setting type="sep" />
-		<setting id="torlook" label="Torlook.info" type="bool" default="true" />
+		<setting id="jackett" label="Jackett" type="bool" default="false" />
+		<setting id="jackett_url" label="30063" type="text"  enable="eq(-1,true)" />
+		<setting id="jackett_key" label="-*- API KEY" type="text" enable="eq(-2,true)" />
+		<setting id="jackett_timeout" label="30139" type="number" default="60" enable="eq(-4,true)"/>
 		<setting type="sep" />
-		<setting id="wriza" label="Wriza.top" type="bool" default="true" />
+		<setting id="jacred" label="Jac.red" type="bool" default="true" />
+		<setting id="jacred_url" label="30063" type="text" default="" enable="eq(-1,true)" />
 	</category>
 </settings>

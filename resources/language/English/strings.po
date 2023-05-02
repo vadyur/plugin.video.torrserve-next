@@ -263,6 +263,10 @@ msgctxt "#30074"
 msgid "Drop one torrent when the number of running torrents is exceeded"
 msgstr ""
 
+msgctxt "#30139"
+msgid "Connection timeout"
+msgstr ""
+
 
 msgctxt "#30200"
 msgid "Server {0} is down"
