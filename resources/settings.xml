@@ -39,6 +39,8 @@
 		<setting id="rutor" label="Rutor.org" type="bool" default="true" />
 		<setting id="rutor_url" label="30063" type="text" default="" enable="eq(-1,true)" />
 		<setting type="sep" />
+		<setting id="rutor_torrserver" label="Rutor.org (TorrServer Matrix.120+)" type="bool" default="true" />
+		<setting type="sep" />
 		<setting id="rutracker" label="Rutracker.org" type="bool" default="false" />
 		<setting id="rutracker_login" label="30066" type="text" default="" enable="eq(-1,true)" />
 		<setting id="rutracker_password" label="30067" type="text" default="" enable="eq(-2,true)" option="hidden" />
