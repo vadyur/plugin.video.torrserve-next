@@ -420,3 +420,7 @@ msgstr ""
 msgctxt "#30336"
 msgid "per week"
 msgstr ""
+
+msgctxt "#30337"
+msgid "Search torrents with TorrServer Client NEXT!"
+msgstr ""

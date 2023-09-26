@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.torrserve-next" name="TorrServer Client NEXT!" version="0.6.6+matrix" provider-name="Nemiroff, virserg, -=Vd=-">
-    <requires>
-        <!-- <import addon="xbmc.addon" version="16.0.0" /> -->
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.torrserver"/>
-        <import addon="script.module.simpleplugin3"/>
-        <import addon="script.module.vd-common"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="navigation.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.python.module" library="resources/site-packages" />
-    <extension point="xbmc.addon.metadata">
-        <news>Добавлены: логин и пароль (NNM Club).</news>
-        <summary lang="en">TorrServer Client: Torrent video streaming</summary>
-        <summary lang="ru">TorrServer Client: потоковое воспроизведение видеоторрентов</summary>
-        <description lang="en">TorrServer Client is a torrent streaming engine. It doesn't go on torrent websites for legal reasons.</description>
-        <description lang="ru">TorrServer Client - Смотрите фильмы, сериалы, видео, слушайте музыку с торрентов без предварительного скачивания.[CR]Просто добавьте торрент файл или Magnet ссылку и наслаждайтесь шоу — загрузка и воспроизведение будут идти одновременно</description>
-        <language>en, ru</language>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
+	<requires>
+		<!-- <import addon="xbmc.addon" version="16.0.0" /> -->
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.torrserver"/>
+		<import addon="script.module.simpleplugin3"/>
+		<import addon="script.module.vd-common"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="navigation.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.python.module" library="resources/site-packages"/>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="contextitem.py">
+				<label>30337</label>
+				<visible>String.StartsWith(ListItem.FolderPath,plugin://plugin.video.unwatched-tv/?action=episodes&amp;season_number=)</visible>
+			</item>
+		</menu>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<news>Добавлены: логин и пароль (NNM Club).</news>
+		<summary lang="en">TorrServer Client: Torrent video streaming</summary>
+		<summary lang="ru">TorrServer Client: потоковое воспроизведение видеоторрентов</summary>
+		<description lang="en">TorrServer Client is a torrent streaming engine. It doesn't go on torrent websites for legal reasons.</description>
+		<description lang="ru">TorrServer Client - Смотрите фильмы, сериалы, видео, слушайте музыку с торрентов без предварительного скачивания.[CR]Просто добавьте торрент файл или Magnet ссылку и наслаждайтесь шоу — загрузка и воспроизведение будут идти одновременно</description>
+		<language>en, ru</language>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
 </addon>
