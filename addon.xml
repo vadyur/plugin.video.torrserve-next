@@ -17,6 +17,10 @@
 				<label>30337</label>
 				<visible>String.StartsWith(ListItem.FolderPath,plugin://plugin.video.unwatched-tv/?action=episodes&amp;season_number=)</visible>
 			</item>
+			<item library="contextitemdb.py">
+				<label>30337</label>
+				<visible>String.IsEqual(ListItem.DBTYPE,"season")</visible>
+			</item>
 		</menu>
 	</extension>
 	<extension point="xbmc.addon.metadata">
