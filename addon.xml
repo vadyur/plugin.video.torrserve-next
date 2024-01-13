@@ -13,10 +13,6 @@
 	<extension point="xbmc.python.module" library="resources/site-packages"/>
 	<extension point="kodi.context.item">
 		<menu id="kodi.core.main">
-			<item library="contextitem.py">
-				<label>30337</label>
-				<visible>String.StartsWith(ListItem.FolderPath,plugin://plugin.video.unwatched-tv/?action=episodes&amp;season_number=)</visible>
-			</item>
 			<item library="contextitemdb.py">
 				<label>30337</label>
 				<visible>String.IsEqual(ListItem.DBTYPE,"season")</visible>
