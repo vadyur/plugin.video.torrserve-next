@@ -3,7 +3,7 @@
 	<category label="30000">
 		<!-- Connectivity -->
 		<setting label="30001" type="lsep" />
-		<!-- 
+		<!--
 		<setting id="remote_host" label="30002" type="text" default="127.0.0.1" />
 		<setting id="remote_port" label="30003" type="number" default="8090" /> -->
 		<setting option="close" type="action" label="30040" action="Addon.OpenSettings(script.module.torrserver)"/>
@@ -29,7 +29,9 @@
 		<setting id="findmagnet" label="Findmagnet.org" type="bool" default="true" />
 		<setting type="sep" />
 		<setting id="kinozal" label="Kinozal.tv" type="bool" default="false" />
-		<setting id="kinozal_url" label="30063" type="text" default="" enable="eq(-1,true)" />
+		<setting id="kinozal_user" label="30066" type="text" enable="eq(-1,true)" />
+		<setting id="kinozal_pass" label="30067" type="text" enable="eq(-2,true)" option="hidden" />
+		<setting id="kinozal_url" label="30063" type="text" default="kinozal.tv" enable="eq(-3,true)" />
 		<setting type="sep" />
 		<setting id="nnmclub" label="Nnmclub.to" type="bool" default="true" />
 		<setting id="nnmclub_login" label="30066" type="text" default="" enable="eq(-1,true)" />
