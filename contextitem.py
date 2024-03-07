@@ -9,9 +9,16 @@ from simpleplugin import Plugin
 
 def get_item_params() -> Dict[str, int]:
     folderPath = xbmc.getInfoLabel("ListItem.FolderPath")
-    m = re.search(r"season_number=(\d+)&tvshowid=(\d+)", folderPath)
+    return get_item_params_path(folderPath)
+
+def get_item_params_path(path: str) -> Dict[str, int]:
+    m = re.search(r"season_number=(\d+)&tvshowid=(\d+)", path)
     if m:
         return {"season_number": int(m.group(1)), "tvshowid": int(m.group(2))}
+
+    m = re.search(r'videodb://tvshows/titles/(\d+)/(\d+)/', path)
+    if m:
+        return {"season_number": int(m.group(2)), "tvshowid": int(m.group(1))}
     return {}
 
 
@@ -23,8 +30,7 @@ def get_tvshow_details(tvshow_id: int) -> Dict[str, Any]:
     return result.get("tvshowdetails", {})
 
 
-def create_url():
-    params = get_item_params()
+def create_url(params: Dict[str, int]):
     if not params:
         return
 
@@ -49,6 +55,8 @@ def create_url():
 
 
 if __name__ == "__main__":
-    url = create_url()
+    params = get_item_params()
+
+    url = create_url(params)
     if url:
         xbmc.executebuiltin("Container.Update(%s)" % url)
