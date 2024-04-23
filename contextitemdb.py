@@ -1,6 +1,7 @@
 from typing import Dict
 import contextitem
 import xbmc
+import sys
 
 def log(msg: str):
     xbmc.log(f'contextitemdb: {msg}')
@@ -23,8 +24,9 @@ def get_item_params() -> Dict[str, int]:
 
 def get_item_params2() -> Dict[str, int]:
     path = xbmc.getInfoLabel('ListItem.FileNameAndPath')
-    # li: xbmcgui.ListItem = sys.listitem # type: ignore
-    # dbpath = li.getPath()
+    if not path:
+        li: xbmcgui.ListItem = sys.listitem # type: ignore
+        path = li.getPath()
     log(f'path={path}')
 
     return contextitem.get_item_params_path(path)
