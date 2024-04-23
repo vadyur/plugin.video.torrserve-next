@@ -1,6 +1,6 @@
 from typing import Dict
 import contextitem
-import xbmc
+import xbmc, xbmcgui
 import sys
 
 def log(msg: str):
