@@ -421,5 +421,5 @@ msgid "per week"
 msgstr "за неделю"
 
 msgctxt "#30337"
-msgid "Search torrents with TorrServer Client NEXT!"
-msgstr "Искать раздачи в TorrServer Client NEXT!"
+msgid "Search torrents with TSC NEXT!"
+msgstr "Искать раздачи в TSC NEXT!"
