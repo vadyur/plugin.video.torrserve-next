@@ -423,3 +423,11 @@ msgstr "за неделю"
 msgctxt "#30337"
 msgid "Search torrents with TSC NEXT!"
 msgstr "Искать раздачи в TSC NEXT!"
+
+msgctxt "#30338"
+msgid "Downloaded"
+msgstr "Загружено"
+
+msgctxt "#30339"
+msgid "Download Speed"
+msgstr "Скорость загрузки"

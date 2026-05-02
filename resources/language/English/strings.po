@@ -424,3 +424,11 @@ msgstr ""
 msgctxt "#30337"
 msgid "Search torrents with TSC NEXT!"
 msgstr ""
+
+msgctxt "#30338"
+msgid "Downloaded"
+msgstr ""
+
+msgctxt "#30339"
+msgid "Download Speed"
+msgstr ""
