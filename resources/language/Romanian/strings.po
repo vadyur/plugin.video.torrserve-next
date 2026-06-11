@@ -1,0 +1,489 @@
+# Kodi Media Center language file
+# Addon Name: TorrServe
+# Addon id: plugin.video.torrserve
+# Addon Provider: Nemiroff
+#
+msgid ""
+msgstr ""
+
+# Settings
+msgctxt "#30000"
+msgid "General"
+msgstr "General"
+
+msgctxt "#30001"
+msgid "Connectivity"
+msgstr "Conectivitate"
+
+msgctxt "#30002"
+msgid "TorrServe URL"
+msgstr "URL TorrServe"
+
+msgctxt "#30003"
+msgid "TorrServe Port"
+msgstr "Port TorrServe"
+
+msgctxt "#30004"
+msgid "View"
+msgstr "Vizualizare"
+
+msgctxt "#30005"
+msgid "Dont show in list torrent without info"
+msgstr "Nu afișa în listă torrentele fără informații"
+
+msgctxt "#30006"
+msgid "Autosave item from search"
+msgstr "Salvare automată a elementului din căutare"
+
+msgctxt "#30007"
+msgid "Enable search"
+msgstr "Activează căutarea"
+
+msgctxt "#30008"
+msgid "Library Path"
+msgstr "Calea bibliotecii"
+
+msgctxt "#30009"
+msgid "Kodi Library"
+msgstr "Biblioteca Kodi"
+
+msgctxt "#30010"
+msgid "TorrServe Settings"
+msgstr "Setări TorrServe"
+
+msgctxt "#30011"
+msgid "Settings saved! Restart service"
+msgstr "Setările au fost salvate! Repornește serviciul"
+
+msgctxt "#30012"
+msgid "Settings not saved!"
+msgstr "Setările nu au fost salvate!"
+
+msgctxt "#30013"
+msgid "Saved!"
+msgstr "Salvat!"
+
+msgctxt "#30014"
+msgid "Deleted!"
+msgstr "Șters!"
+
+msgctxt "#30015"
+msgid "Choose a file"
+msgstr "Alege un fișier"
+
+msgctxt "#30016"
+msgid "Cache Size"
+msgstr "Mărime cache"
+
+msgctxt "#30017"
+msgid "Preload Size"
+msgstr "Mărime preîncărcare"
+
+msgctxt "#30018"
+msgid "Disable TCP"
+msgstr "Dezactivează TCP"
+
+msgctxt "#30019"
+msgid "Disable UTP"
+msgstr "Dezactivează uTP"
+
+msgctxt "#30020"
+msgid "Disable UPNP"
+msgstr "Dezactivează UPnP"
+
+msgctxt "#30021"
+msgid "Disable DHT"
+msgstr "Dezactivează DHT"
+
+msgctxt "#30022"
+msgid "Disable Upload"
+msgstr "Dezactivează upload"
+
+msgctxt "#30023"
+msgid "Encryption"
+msgstr "Criptare"
+
+msgctxt "#30024"
+msgid "Retracker mode"
+msgstr "Mod retracker"
+
+msgctxt "#30025"
+msgid "Download Limit"
+msgstr "Limită descărcare"
+
+msgctxt "#30026"
+msgid "Upload Limit"
+msgstr "Limită upload"
+
+msgctxt "#30027"
+msgid "Connections Limit (per torrent)"
+msgstr "Limită conexiuni (per torrent)"
+
+msgctxt "#30028"
+msgid "Listen Port"
+msgstr "Port de ascultare"
+
+msgctxt "#30029"
+msgid "Default"
+msgstr "Implicit"
+
+msgctxt "#30030"
+msgid "Disable"
+msgstr "Dezactivat"
+
+msgctxt "#30031"
+msgid "Forced"
+msgstr "Forțat"
+
+msgctxt "#30032"
+msgid "Not add"
+msgstr "Nu adăuga"
+
+msgctxt "#30033"
+msgid "Add"
+msgstr "Adaugă"
+
+msgctxt "#30034"
+msgid "Remove"
+msgstr "Elimină"
+
+msgctxt "#30035"
+msgid "Replace"
+msgstr "Înlocuiește"
+
+msgctxt "#30036"
+msgid "Add built"
+msgstr "Adaugă built"
+
+msgctxt "#30037"
+msgid "Add ngosang"
+msgstr "Adaugă ngosang"
+
+msgctxt "#30040"
+msgid "Torserver's settings"
+msgstr "Setări TorrServer"
+
+msgctxt "#30050"
+msgid "Enable IPv6"
+msgstr "Activează IPv6"
+
+msgctxt "#30051"
+msgid "Dht connections limit"
+msgstr "Limită conexiuni DHT"
+
+msgctxt "#30052"
+msgid "Torrent disconnect timeout"
+msgstr "Timeout de deconectare torrent"
+
+msgctxt "#30053"
+msgid "Support version"
+msgstr "Versiune suportată"
+
+msgctxt "#30054"
+msgid "Content type for m3u playlists"
+msgstr "Tip de conținut pentru playlisturi M3U"
+
+msgctxt "#30055"
+msgid "Disable RealIdFileStats and &ind="
+msgstr "Dezactivează RealIdFileStats și &ind="
+
+msgctxt "#30056"
+msgid "Request strategy"
+msgstr "Strategie de cerere"
+
+msgctxt "#30057"
+msgid "Built-in retrackers"
+msgstr "Retrackere încorporate"
+
+msgctxt "#30058"
+msgid "Newtrackon retrackers"
+msgstr "Retrackere NewTrackon"
+
+msgctxt "#30059"
+msgid "Ngosang all ip retrackers"
+msgstr "Retrackere Ngosang (toate IP-urile)"
+
+msgctxt "#30060"
+msgid "Show external subtitles from torrent"
+msgstr "Afișează subtitrări externe din torrent"
+
+msgctxt "#30061"
+msgid "TheMovieDB query language (discover movies & TV shows)"
+msgstr "Limba de interogare TheMovieDB (descoperă filme și seriale)"
+
+msgctxt "#30062"
+msgid "Search on"
+msgstr "Caută pe"
+
+msgctxt "#30063"
+msgid "-*- mirror http://"
+msgstr "-*- server http://"
+
+msgctxt "#30064"
+msgid "View of the list of found distributions"
+msgstr "Vizualizarea listei distribuțiilor găsite"
+
+msgctxt "#30065"
+msgid "View of the list of discover films (TV shows)"
+msgstr "Vizualizarea listei de filme (seriale TV) descoperite"
+
+msgctxt "#30066"
+msgid "-*- login"
+msgstr "-*- utilizator"
+
+msgctxt "#30067"
+msgid "-*- password"
+msgstr "-*- parolă"
+
+msgctxt "#30068"
+msgid "Region in requests to TheMovieDB"
+msgstr "Regiune pentru cereri către TheMovieDB"
+
+msgctxt "#30069"
+msgid "Only video and audio files in the list from the distribution"
+msgstr "Doar fișiere video și audio în lista distribuției"
+
+msgctxt "#30070"
+msgid "Include adult movies on TheMovieDB"
+msgstr "Include filme pentru adulți în TheMovieDB"
+
+msgctxt "#30071"
+msgid "Distribution file list view"
+msgstr "Vizualizarea listei de fișiere de distribuție"
+
+msgctxt "#30072"
+msgid "Region (ISO 3166-1)"
+msgstr "Regiune (ISO 3166-1)"
+
+msgctxt "#30073"
+msgid "Number of running torrents"
+msgstr "Număr de torrente active"
+
+msgctxt "#30074"
+msgid "Drop one torrent when the number of running torrents is exceeded"
+msgstr "Oprește un torrent când este depășit numărul maxim de torrente active"
+
+msgctxt "#30139"
+msgid "Connection timeout"
+msgstr "Timeout conexiune"
+
+msgctxt "#30200"
+msgid "Server {0} is down"
+msgstr "Serverul {0} este oprit"
+
+# AddonGUI
+msgctxt "#30300"
+msgid "Torrents List"
+msgstr "Lista de Torrente"
+
+msgctxt "#30301"
+msgid "Search"
+msgstr "Căutare"
+
+msgctxt "#30302"
+msgid "Settings"
+msgstr "Setări"
+
+msgctxt "#30303"
+msgid "Empty result"
+msgstr "Rezultat gol"
+
+msgctxt "#30304"
+msgid "Wait for info..."
+msgstr "Așteaptă informații..."
+
+msgctxt "#30305"
+msgid "Open .torrent"
+msgstr "Deschide .torrent"
+
+msgctxt "#30306"
+msgid "Select torrent file"
+msgstr "Selectează fișier torrent"
+
+msgctxt "#30307"
+msgid "Add to DB"
+msgstr "Adaugă în DB"
+
+msgctxt "#30308"
+msgid "Delete from DB"
+msgstr "Șterge din DB"
+
+msgctxt "#30309"
+msgid "Connected: {0} | Active: {1} | Total: {2}"
+msgstr "Conectat: {0} | Activ: {1} | Total: {2}"
+
+msgctxt "#30310"
+msgid "sec"
+msgstr "sec"
+
+msgctxt "#30311"
+msgid "Discover"
+msgstr "Descoperă"
+
+msgctxt "#30312"
+msgid "Movies"
+msgstr "Filme"
+
+msgctxt "#30313"
+msgid "TV Shows"
+msgstr "Seriale"
+
+msgctxt "#30314"
+msgid "New Search"
+msgstr "Căutare nouă"
+
+msgctxt "#30315"
+msgid "Torrents"
+msgstr "Torrente"
+
+msgctxt "#30316"
+msgid "Remove query"
+msgstr "Elimină căutarea"
+
+msgctxt "#30317"
+msgid "Next page ({0})"
+msgstr "Pagina următoare ({0})"
+
+msgctxt "#30318"
+msgid "Save to Library"
+msgstr "Salvează în bibliotecă"
+
+msgctxt "#30319"
+msgid "Start find subtitles..."
+msgstr "Începe căutarea subtitrărilor..."
+
+msgctxt "#30320"
+msgid "Find subtitles..."
+msgstr "Caută subtitrări..."
+
+msgctxt "#30321"
+msgid "Load subtitles {0} / {1}"
+msgstr "Încarcă subtitrări {0} / {1}"
+
+msgctxt "#30322"
+msgid "Description"
+msgstr "Descriere"
+
+msgctxt "#30323"
+msgid "Open TAM"
+msgstr "Deschide TAM"
+
+msgctxt "#30324"
+msgid "Open all .torrent in dir"
+msgstr "Deschide toate fișierele .torrent din folder"
+
+msgctxt "#30325"
+msgid "Search title"
+msgstr "Caută titlu"
+
+msgctxt "#30326"
+msgid "Search title and year"
+msgstr "Caută titlu și an"
+
+msgctxt "#30327"
+msgid "Cartoons"
+msgstr "Desene animate"
+
+msgctxt "#30328"
+msgid "Animated series"
+msgstr "Seriale de animație"
+
+msgctxt "#30329"
+msgid "russians"
+msgstr "vorbitori de rusă"
+
+msgctxt "#30330"
+msgid "english speaking"
+msgstr "vorbitori de engleză"
+
+msgctxt "#30331"
+msgid "french"
+msgstr "franceză"
+
+msgctxt "#30332"
+msgid "german"
+msgstr "germană"
+
+msgctxt "#30333"
+msgid "italian"
+msgstr "italiană"
+
+msgctxt "#30334"
+msgid "japanese"
+msgstr "japoneză"
+
+msgctxt "#30335"
+msgid "per day"
+msgstr "pe zi"
+
+msgctxt "#30336"
+msgid "per week"
+msgstr "pe săptămână"
+
+msgctxt "#30337"
+msgid "Search torrents with TSC NEXT!"
+msgstr "Caută torrente cu TSC NEXT!"
+
+msgctxt "#30338"
+msgid "Downloaded"
+msgstr "Descărcat"
+
+msgctxt "#30339"
+msgid "Download Speed"
+msgstr "Viteză descărcare"
+
+msgctxt "#30340"
+msgid "from"
+msgstr "din"
+
+msgctxt "#30341"
+msgid "Do not change"
+msgstr "Nu modifica"
+
+msgctxt "#30342"
+msgid "View 1"
+msgstr "Vizualizare 1"
+
+msgctxt "#30343"
+msgid "View 2"
+msgstr "Vizualizare 2"
+
+msgctxt "#30344"
+msgid "View 3"
+msgstr "Vizualizare 3"
+
+msgctxt "#30345"
+msgid "View 4"
+msgstr "Vizualizare 4"
+
+msgctxt "#30346"
+msgid "View 5"
+msgstr "Vizualizare 5"
+
+msgctxt "#30347"
+msgid "View 6"
+msgstr "Vizualizare 6"
+
+msgctxt "#30348"
+msgid "View 7"
+msgstr "Vizualizare 7"
+
+msgctxt "#30349"
+msgid "View 8"
+msgstr "Vizualizare 8"
+
+msgctxt "#30350"
+msgid "View 9"
+msgstr "Vizualizare 9"
+
+msgctxt "#30351"
+msgid "View 10"
+msgstr "Vizualizare 10"
+
+msgctxt "#30352"
+msgid "View 11"
+msgstr "Vizualizare 11"
+
+msgctxt "#30353"
+msgid "View 12"
+msgstr "Vizualizare 12"
