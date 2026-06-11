@@ -17,9 +17,9 @@
 		<setting id="use_torlook" label="30007" type="bool" default="false" />
 		<setting id="result_view" label="30064" type="enum"  default="2" values="Не менять|Вид 1|Вид 2|Вид 3|Вид 4|Вид 5|Вид 6|Вид 7|Вид 8|Вид 9|Вид 10|Вид 11|Вид 12"/>
 		<setting id="search_view" label="30065" type="enum"  default="0" values="Не менять|Вид 1|Вид 2|Вид 3|Вид 4|Вид 5|Вид 6|Вид 7|Вид 8|Вид 9|Вид 10|Вид 11|Вид 12"/>
-		<setting id="LanguageID" label="30061" type="select" values="bg|cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|sl|sv|tr|zh" default="ru"/>
+		<setting id="LanguageID" label="30061" type="select" values="bg|cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|ro|sl|sv|tr|zh" default="ru"/>
 		<setting id="is_region" label="30068" type="bool" default="true" />
-		<setting id="regionID" label="30072" type="select" enable="eq(-1,true)" values="BY|DE|FI|FR|GB|IT|JP|KR|KZ|NL|NZ|RU|SV|US|UA" default="RU"/>
+		<setting id="regionID" label="30072" type="select" enable="eq(-1,true)" values="BY|DE|FI|FR|GB|IT|JP|KR|KZ|NL|NZ|RU|RO|SV|US|UA" default="RU"/>
 		<setting id="is_adult" label="30070" type="bool" default="false" />
 		<setting type="sep" />
 		<setting id="united_search"  type="bool" visible="true" label="United Search" default="false" />
