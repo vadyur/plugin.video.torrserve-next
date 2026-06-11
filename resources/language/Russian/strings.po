@@ -431,3 +431,59 @@ msgstr "Загружено"
 msgctxt "#30339"
 msgid "Download Speed"
 msgstr "Скорость загрузки"
+
+msgctxt "#30340"
+msgid "from"
+msgstr "из"
+
+msgctxt "#30341"
+msgid "Do not change"
+msgstr "Не менять"
+
+msgctxt "#30342"
+msgid "View 1"
+msgstr "Вид 1"
+
+msgctxt "#30343"
+msgid "View 2"
+msgstr "Вид 2"
+
+msgctxt "#30344"
+msgid "View 3"
+msgstr "Вид 3"
+
+msgctxt "#30345"
+msgid "View 4"
+msgstr "Вид 4"
+
+msgctxt "#30346"
+msgid "View 5"
+msgstr "Вид 5"
+
+msgctxt "#30347"
+msgid "View 6"
+msgstr "Вид 6"
+
+msgctxt "#30348"
+msgid "View 7"
+msgstr "Вид 7"
+
+msgctxt "#30349"
+msgid "View 8"
+msgstr "Вид 8"
+
+msgctxt "#30350"
+msgid "View 9"
+msgstr "Вид 9"
+
+msgctxt "#30351"
+msgid "View 10"
+msgstr "Вид 10"
+
+msgctxt "#30352"
+msgid "View 11"
+msgstr "Вид 11"
+
+msgctxt "#30353"
+msgid "View 12"
+msgstr "Вид 12"
