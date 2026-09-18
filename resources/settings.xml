@@ -47,6 +47,9 @@
 		<setting id="rutracker_login" label="30066" type="text" default="" enable="eq(-1,true)" />
 		<setting id="rutracker_password" label="30067" type="text" default="" enable="eq(-2,true)" option="hidden" />
 		<setting id="rutracker_url" label="30063" type="text" default="" enable="eq(-3,true)" />
+		<setting id="rutracker_flaresolverr_url" type="text" label="FlareSolverr URL" default="" enable="eq(-4,true)"/>
+		<setting id="rutracker_flaresolverr_timeout" type="number" label="FlareSolverr timeout (sec)" default="120" enable="eq(-5,true)"/>
+		<setting id="rutracker_flaresolverr_direct_timeout" type="number" label="Direct timeout (sec)" default="45" enable="eq(-6,true)"/>
 		<setting type="sep" />
 		<setting id="jackett" label="Jackett" type="bool" default="false" />
 		<setting id="jackett_url" label="30063" type="text"  enable="eq(-1,true)" />
