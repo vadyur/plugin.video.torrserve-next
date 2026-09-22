@@ -271,6 +271,14 @@ msgctxt "#30200"
 msgid "Server {0} is down"
 msgstr "Сервер {0} не отвечает"
 
+msgctxt "#30201"
+msgid "Torrent info is not ready, try again later"
+msgstr "Метаданные торрента не получены, попробуйте позже"
+
+msgctxt "#30202"
+msgid "No video files in torrent"
+msgstr "В торренте нет видеофайлов"
+
 # AddonGUI
 msgctxt "#30300"
 msgid "Torrents List"
